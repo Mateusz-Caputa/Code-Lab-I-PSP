@@ -42,7 +42,7 @@ int main()
     cin >> selected_month;                                            // Store user input in selected_month variable.
 
     // Switch statement to check number of days in a month.
-    // Returns message to user and EXIT_SUCCESS status code instead of break statement.
+    // Returns message to user and EXIT_SUCCESS status code instead of break statement because there is no need to continue.
     switch (selected_month)
     {
     case JANUARY:
