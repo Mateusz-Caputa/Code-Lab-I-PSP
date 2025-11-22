@@ -24,9 +24,9 @@ string is_even(int number)
 int main()
 {
     cout << "Enter a number: "; // prompt user to enter a number
-    
-    int entered_number; // variable to store user entered number
-    if (cin >> entered_number)  // read user input and check if input is valid
+
+    int entered_number;                          // variable to store user entered number
+    if (cin >> entered_number)                   // read user input and check if input is valid
         cout << is_even(entered_number) << endl; // output the result of is_even function
     else
         cerr << "You entered incorrect number." << endl; // output error message for invalid input

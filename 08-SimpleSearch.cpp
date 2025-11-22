@@ -20,8 +20,8 @@ int main()
     // Declare variable for searched name
     string search_name;
 
-    cout << "Enter searched name: ";    // Prompt user for input
-    getline(cin, search_name);          // Read the input
+    cout << "Enter searched name: "; // Prompt user for input
+    getline(cin, search_name);       // Read the input
 
     cout << "Searching for name: " << search_name << endl; // Output searched name
 
@@ -33,7 +33,7 @@ int main()
         {
             // If found, output the index and exit successfully
             cout << "Name " << search_name << " found at index " << i;
-            return EXIT_SUCCESS; 
+            return EXIT_SUCCESS;
         }
     }
 

@@ -45,7 +45,7 @@ void prompt_custom_value(string &current_value, const string &label)
 void prompt_custom_value(int &current_value, const string &label)
 {
     string custom_value; // Declaration of temporary variable to store user input.
-    while (true) // Loop until the user input will be correct.
+    while (true)         // Loop until the user input will be correct.
     {
         // Promt user to enter custom numeric value for a label and display current value.
         cout << "Enter a number for " << label << " or press Enter to use [" << current_value << "]: ";
